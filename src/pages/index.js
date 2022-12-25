@@ -12,7 +12,7 @@ const IndexPage = () => (
   <>
     <Seo title="Home" />
     {/* <Header></Header> */}
-    <Layout title="Front End FEEDS" pageTitle="Front End FEEDS">
+    <Layout title="Front End Feeds" pageTitle="Front End Feeds">
       <div className="container">
         <Search></Search>
       </div>

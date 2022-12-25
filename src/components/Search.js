@@ -60,7 +60,7 @@ const Search = () => {
           "no info"
         )}
         {items ? (
-          <div class="rss-feed">
+          <div className="rss-feed">
             {items.map(item => {
               const title = item.title
                 .replaceAll("<![CDATA[", "")

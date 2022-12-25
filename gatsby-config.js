@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `myRSS - RSS Search`,
-    description: `Search for articles from you favorite sources`,
+    title: `Front End Feeds`,
+    description: `Search some of the best Front End Blog Feeds by category or keyword`,
     author: `Nikki Peel`,
   },
   plugins: [
@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `myRSS - RSS Search`,
-        short_name: `myRSS`,
+        name: `Front End Feeds`,
+        short_name: `Front End Feeds`,
         start_url: `/`,
         background_color: `#e55812`,
         theme_color: `#0e4749`,
