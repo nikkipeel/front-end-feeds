@@ -4,6 +4,5 @@
   status = 200
 
 [build]
-  command = "yarn build"
-  functions = "api"
-  publish = "build"
+  command = "npm build"
+  publish = "public/"
