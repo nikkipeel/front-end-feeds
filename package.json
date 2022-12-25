@@ -1,0 +1,45 @@
+{
+  "name": "front-end-feeds",
+  "private": true,
+  "description": "Search RSS Feeds by topic or keyword",
+  "version": "1",
+  "author": "Nikki Peel <nikkipeel.dev@gmail.com>",
+  "dependencies": {
+    "framer-motion": "^8.0.2",
+    "gatsby": "^5.3.3",
+    "gatsby-plugin-image": "^3.3.2",
+    "gatsby-plugin-manifest": "^5",
+    "gatsby-plugin-react-helmet": "^6.3.0",
+    "gatsby-plugin-scroll-indicator": "^1.0.1",
+    "gatsby-plugin-sharp": "^5",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^5",
+    "gatsby-transformer-sharp": "^5",
+    "prop-types": "^15.8.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
+    "rss-parser": "^3.12.0"
+  },
+  "devDependencies": {
+    "gatsby-plugin-netlify": "^5",
+    "prettier": "^2.5.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
