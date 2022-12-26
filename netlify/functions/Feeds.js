@@ -37,6 +37,6 @@ function getFeeds(callback) {
   )
   clientReq.end()
   {
-    console.log("body", body)
+    console.log("body in Netlify Functions", body)
   }
 }
